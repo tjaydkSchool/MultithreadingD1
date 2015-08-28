@@ -1,0 +1,4 @@
+The problem is that the two threads are given X time to complete the algorithm - if one of the threads have already counted
+the variable up by one and the second either excecutes the final step or counts up by two, then the number is uneven.
+
+This problem is not predictable, but on my system it occurs pretty often.
